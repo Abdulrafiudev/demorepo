@@ -1,15 +1,15 @@
 .header{
-    height: 55px;
+    height: 3.4375rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: fixed;
     background-color: white;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    height: 55px;
-    border-bottom-width:1px;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 3.4375rem;
+    border-bottom-width:0.0625rem;
     border-bottom-style:solid;
     border-bottom-color:rgb(226, 222, 222);
     z-index: 100;
@@ -24,48 +24,48 @@
    
 }
 .hamburger-menu{
-    height: 25px;
-    margin-left: 25px;
-    margin-right: 22px;
+    height: 1.5625rem;
+    margin-left: 1.5625rem;
+    margin-right: 1.375rem;
     cursor: pointer;
 }
 .youtube-logo{
-    height: 20px;
+    height: 1.25rem;
     cursor: pointer;
 }
 .middle_section{
   
     flex: 1;
-    margin-left: 70px;
-    margin-right: 35px;
-    max-width: 650px;
+    margin-left: 4.375rem;
+    margin-right: 2.1875rem;
+    max-width: 40.625rem;
     display: flex;
     align-items: center;
 }
 
 .search_button{
-    height: 38px;
-    width: 64px;
-    border-radius: 0 19px 19px 0;
-    border-width: 1px;
+    height: 2.375rem;
+    width: 4rem;
+    border-radius: 0 1.1875rem 1.1875rem 0;
+    border-width: 0.0625rem;
     border-style: solid;
     border-color: rgb(207, 207, 207) ;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    margin-left: -1px;
+    margin-left: -0.0625rem;
     background-color: rgb(250, 250, 250,);
-    margin-right: 12px;
+    margin-right: 0.75rem;
     position: relative;
     
 
 }
 .voice_button{
-    height: 40px;
-    width: 40px;
+    height: 2.5rem;
+    width: 2.5rem;
     border-radius: 50%;
-    border-width: 1px;
+    border-width: 0.0625rem;
     border-style: solid;
     cursor: pointer;
     border: none;
@@ -78,45 +78,45 @@
     background-color: rgb(213, 210, 210);
 }
 .voice{
-    height: 24px;
+    height: 1.5rem;
 }
 .search{
-    height: 24px;
+    height: 1.5rem;
   
 }
 .search_engine{
     flex: 1;
-    height: 34px;
-    border-radius: 20px 0 0 20px;
-    border-width: 1px;
+    height: 2.125rem;
+    border-radius: 1.25rem 0 0 1.25rem;
+    border-width: 0.0625rem;
     border-style: solid;
     border-color: rgb(207, 207, 207);
-    padding-left: 15px;
-    font-size: 15px;
+    padding-left: 0.9375rem;
+    font-size: 0.9375rem;
     box-shadow: inset 0.5px 1px 3px rgba(0, 0, 0, 0.03) ;
     width: 0;
 }
 .search_engine::placeholder{
     font-family: roboto, Arial;
-    font-size: 15px;
+    font-size: 0.9375rem;
 }
 .right_section{
-    width: 200px;
+    width: 12.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
 }
 .upload{
-    height: 24px;
+    height: 1.5rem;
     cursor: pointer;
 }
 .apps{
-    height: 24px;
+    height: 1.5rem;
     cursor: pointer;
 }
 .notifications{
-    height: 24px;
+    height: 1.5rem;
     cursor: pointer;
 }
 .notifications_box{
@@ -129,32 +129,32 @@
 .notifications_number{
     background-color: rgb(206, 3, 3);
     position: absolute;
-    top: -2px;
-    right: -12px;
+    top: -0.125rem;
+    right: -0.75rem;
     color: white;
-    font-size: 12px;
-    width: 18px;
-    border-radius: 10px;
-    padding-left: 5px;
-    padding-top: 2px;
+    font-size: 0.75rem;
+    width: 1.125rem;
+    border-radius: 0.625rem;
+    padding-left: 0.3125rem;
+    padding-top: 0.125rem;
 }
 .my-channel{
-    height: 32px;
-    margin-right: 24px;
+    height: 2rem;
+    margin-right: 1.5rem;
     cursor: pointer;
-    border-radius: 16px;
+    border-radius: 1rem;
 }
 .tooltip{
     background-color: gray;
     position: absolute;
     color: white;
     font-family: Roboto, Arial;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 6px;
-    padding-right: 6px;
-    border-radius: 5px;
-    bottom: -50px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.375rem;
+    padding-right: 0.375rem;
+    border-radius: 0.3125rem;
+    bottom: -3.125rem;
     opacity: 0;
     transition: opacity 0.3s;
     pointer-events: none;
@@ -165,13 +165,13 @@
     position: absolute;
     color: white;
     font-family: Roboto, Arial;
-    font-size: 12px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 6px;
-    padding-right: 6px;
-    border-radius: 5px;
-    bottom: -50px;
+    font-size: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.375rem;
+    padding-right: 0.375rem;
+    border-radius: 0.3125rem;
+    bottom: -3.125rem;
     opacity: 0;
     transition: opacity 0.3s;
     pointer-events: none;
@@ -190,8 +190,8 @@
 }
 .notifications_box:hover{
     background-color: lightgray;
-    height: 38px;
-    width: 40px;
+    height: 2.375rem;
+    width: 2.5rem;
     border-radius: 50%;
     transition: 0.15s;
 }
