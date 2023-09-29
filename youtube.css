@@ -94,16 +94,17 @@ margin-top: 0;
         width: 50vw;
     }
 }
-@media (min-width: 701px) and (max-width: 800px){
+@media (min-width: 701px) and (max-width: 950px){
     .video_grid{
         display: grid;
-        grid-template-columns: 1fr 1fr ;}
+        grid-template-columns: 1fr 1fr ;
+    }
         
 }
-@media(min-width: 810px) and (max-width:999px){
+@media(min-width: 951px) and (max-width:999px){
     .video_grid{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
     }
 }
 @media (min-width: 1000px){
