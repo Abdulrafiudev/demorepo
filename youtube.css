@@ -104,8 +104,23 @@ margin-top: 0;
 @media (min-width: 768px) and (max-width: 1024px){
     .video_grid{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr ;
     }
+    .video_time{
+        background-color: black;
+        color: white;
+        font-size: 14px;
+        font-family: Roboto, Arial;
+        font-weight: 500;
+        position: absolute;
+        right: 0.3125rem;
+        bottom: 0.5rem;
+        padding-left: 0.1875rem;
+        padding-right: 0.1875rem;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+        border-radius: 0.125rem;}
+        
 }
 @media (min-width: 1025px) and (max-width: 1280px){
     .video_grid{
@@ -123,7 +138,7 @@ margin-top: 0;
 .video_time{
     background-color: black;
     color: white;
-    font-size: 0.3125rem;
+    font-size: 14px;
     font-family: Roboto, Arial;
     font-weight: 500;
     position: absolute;
