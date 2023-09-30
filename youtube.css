@@ -23,6 +23,7 @@ margin-top: 0;
   margin-bottom: 0.75rem;
   font-family: roboto , arial;
   cursor: pointer;
+  margin-left: 0.625rem;
 }
 .video_author, .video_stats{
     display: block;
@@ -55,6 +56,7 @@ margin-top: 0;
 .Marques{
     width: 2.3125rem;
     border-radius: 50%;
+    margin-left: 0.625rem;
   
  
 }
@@ -62,12 +64,14 @@ margin-top: 0;
     font-size: 0.75rem;
     color: rgb(96, 96, 96);
     margin-top: 0.25rem;
+    margin-left: 0.625rem;
 }
 .video_author{
     font-size: 0.75rem;
     margin-top: 0;
     color: rgb(96, 96, 96);
     margin-bottom: 0;
+    margin-left: 0.625rem;
 }
 .row_2{
     margin-top: 0.5rem;
@@ -78,6 +82,7 @@ margin-top: 0;
     width:2.3125rem;
     border-radius: 50%;
     display: inline-block;
+    margin-left: 0.625rem;
 }
 .video_grid{
     display: grid;
@@ -87,58 +92,34 @@ margin-top: 0;
     row-gap: 1.875rem;
     
 }
-@media (max-width: 480px){
+
+    
+@media  (min-width: 500px)  and (max-width: 1000px){
+     .video_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+
+    }
+        
+    }
+@media (max-width:499px){
     .video_grid{
         display: grid;
         grid-template-columns: 1fr;
-        width: 50vw;
-    }
-}
-@media (min-width: 481px) and (max-width: 767px){
-    .video_grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr  ;
-    }
         
-}
-@media (min-width: 768px) and (max-width: 1024px){
-    .video_grid{
-        display: grid;
-        grid-template-columns: 1fr ;
     }
-    .video_time{
-        background-color: black;
-        color: white;
-        font-size: 14px;
-        font-family: Roboto, Arial;
-        font-weight: 500;
-        position: absolute;
-        right: 0.3125rem;
-        bottom: 0.5rem;
-        padding-left: 0.1875rem;
-        padding-right: 0.1875rem;
-        padding-top: 0.25rem;
-        padding-bottom: 0.25rem;
-        border-radius: 0.125rem;}
+    body{
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 3.5rem;
         
-}
-@media (min-width: 1025px) and (max-width: 1280px){
-    .video_grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-    .video_title{
-        font-size: 0.9375rem;
-        line-height: 1.5rem;
     }
 }
-
-
-
+    
 .video_time{
     background-color: black;
     color: white;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: Roboto, Arial;
     font-weight: 500;
     position: absolute;
@@ -155,6 +136,4 @@ a{
     color: black;
 }
 
-
-    
 

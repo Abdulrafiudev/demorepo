@@ -16,6 +16,16 @@
   
     
 }
+@media (max-width:499px){
+    .header{
+        height: 3.4375rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        background-color: white;
+    }
+}
 .left_section{
     display: flex;
     align-items: center;
